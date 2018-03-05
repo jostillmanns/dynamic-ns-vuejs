@@ -107,4 +107,6 @@ different contexts:
     - when navigating to `/#/checkout-details`
 
 ## Try it out
-Run `npm run serve`
+`npm install`
+
+`npm run serve`
