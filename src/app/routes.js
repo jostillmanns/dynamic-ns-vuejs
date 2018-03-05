@@ -5,11 +5,15 @@ export const routes = [
     {
         path: '/ticket-details',
         component: TicketDetails,
-        name: 'ticketDetails', // the corresponding store name should be named accordingly
+        meta: {
+            storeNs: 'ticketDetailsStore',
+        },
     },
     {
         path: '/checkout-details',
         component: CheckoutDetails,
-        name: 'checkoutDetails',
+        meta: {
+            storeNs: 'checkoutDetailsStore',
+        },
     },
 ];
